@@ -56,8 +56,8 @@ namespace sapere.View
                 if (foiRespondido == true)
                 {
                     Evento evento = cEvento.BuscarEvento(boxTitulo.Text);
-                    frmMenu frmMenu = new frmMenu(usuario, evento, foiRespondido);
-                    frmMenu.Show();
+                    frmVisualizacaoEventoRespondidoParte1 frmVisualizacaoEventoRespondidoParte1 = new frmVisualizacaoEventoRespondidoParte1(usuario, evento, true);
+                    frmVisualizacaoEventoRespondidoParte1.Show();
                     Close();
                 }
                 else

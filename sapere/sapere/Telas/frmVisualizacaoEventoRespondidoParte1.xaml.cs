@@ -37,9 +37,6 @@ namespace sapere.View
         }
         public void AjustarEvento()
         {
-            txtTituloEventoRespondido.Text = evento.titulo;
-            txtDescricaoEvento.Text = evento.descricao;
-            txtLocalizacaoEData.Text = $"{evento.localDeVisualizacao}\n{evento.dataHoraVisualizacao}";
         }
         private void PlayVideo()
         {

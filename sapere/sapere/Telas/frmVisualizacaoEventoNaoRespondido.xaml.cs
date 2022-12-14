@@ -39,9 +39,7 @@ namespace sapere.View
         }
         public void AjustarEvento()
         {
-            txtTituloEventoNaoRespondido.Text = evento.titulo;
-            txtDescricaoEvento.Text = evento.descricao;
-            txtLocalizacaoEData.Text = $"{evento.localDeVisualizacao}\n{evento.dataHoraVisualizacao}";
+            
             if(usuario.tipoUsuario == "comum")
             {
                 btnResponder.IsHitTestVisible = false;

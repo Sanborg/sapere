@@ -16,32 +16,20 @@
         <TextBlock x:Name="btnPesquisarEvento" HorizontalAlignment="Left" Margin="120,826,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="78" Width="90" FontFamily="Lucida Sans" FontSize="14" FontWeight="Bold" TextAlignment="Center" Padding="0,30,0,0" Foreground="#FF6D6D6D" MouseLeftButtonDown="PressionarBtnPesquisarEvento"/>
         <TextBlock x:Name="btnMenu" HorizontalAlignment="Left" Margin="20,826,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="78" Width="90" FontFamily="Lucida Sans" FontSize="14" FontWeight="Bold" TextAlignment="Center" Padding="0,30,0,0" Foreground="#FF6D6D6D" MouseLeftButtonDown="PressionarBtnTelaInicial"/>
         <TextBlock x:Name="txtEventoRespondido" HorizontalAlignment="Left" Margin="10,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="80" Width="553" FontFamily="Lucida Sans" FontSize="36" FontWeight="Bold" TextAlignment="Center" Padding="0,15,110,0" Text="Evento Respondido"/>
-        <TextBlock x:Name="txtDescricaoEvento" HorizontalAlignment="Left" Margin="37,388,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="111" Width="452" FontFamily="Lucida Sans" FontWeight="Bold" TextAlignment="Center" Padding="0,0,380,0"/>
-        <TextBlock x:Name="txtLocalizacaoEData" HorizontalAlignment="Left" Margin="318,554,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="115" Width="134" FontFamily="Lucida Sans" FontWeight="Bold" TextAlignment="Center" Padding="0,0,380,0"/>
-        <TextBlock x:Name="txtTituloEventoRespondido" HorizontalAlignment="Left" Margin="30,156,0,0" Visibility="Visible" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="337" FontFamily="Lucida Sans" FontWeight="Bold" TextAlignment="Center" Padding="0,10,0,0" FontSize="22" Text=""/>
+        <TextBlock x:Name="txtDescricaoEvento" HorizontalAlignment="Left" Margin="37,388,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="111" Width="452" FontFamily="Lucida Sans" FontWeight="Bold" Text="Estava andando no Parque Nacional de Itatiaia e vi esse animal peludo parecendo um gambá. Que animal é esse?"/>
+        <TextBlock x:Name="txtLocalizacaoEData" HorizontalAlignment="Left" Margin="318,554,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="115" Width="134" FontFamily="Lucida Sans" FontWeight="Bold" Text="Data:12/05/2022                                  Hora:15:30                        Local: Parque Nacional de Itatiaia"/>
+        <TextBlock x:Name="txtTituloEventoRespondido" HorizontalAlignment="Center" Margin="0,157,0,0" Visibility="Visible" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" Width="351" FontFamily="Lucida Sans" FontWeight="Bold" Padding="0,10,0,0" FontSize="24" Text="Quati"/>
         <Image x:Name="imgEscopoDoEvento" Margin="367,157,112,709" Source="/Icones/figura-animal.png" Stretch="Fill"/>
         <Image x:Name="imgFotoEvento" Margin="29,212,314,512" Source="/Evento/imgFotoQuati.png" Stretch="Fill" Width="180" Height="180" Visibility="Visible"/>
-        <MediaElement x:Name="vidEvento" HorizontalAlignment="Left" Height="177" Margin="19,512,0,0" VerticalAlignment="Top" Width="294" AllowDrop="True" Source="/Evento/vidQuati.mp4" IsMuted="True" UnloadedBehavior="Stop" LoadedBehavior="Play" Visibility="Visible"/>
-        <Image x:Name="imgFundoBtnPlayPauseAudio" HorizontalAlignment="Left" Height="60" Margin="299,256,0,0" VerticalAlignment="Top" Width="60" Source="/Icones/figura-fundo-btn-play.png">
-            <Image.OpacityMask>
-                <ImageBrush ImageSource="/Icones/figura-fundo-btn-play.png"/>
-            </Image.OpacityMask>
-        </Image>
-        <Image x:Name="imgPlayPauseAudio" HorizontalAlignment="Left" Height="60" Margin="299,256,0,0" VerticalAlignment="Top" Width="60" Source="/Icones/figurap-play-pausa.png" MouseLeftButtonDown="PressionarBtnPlayPauseAudio">
-            <Image.OpacityMask>
-                <ImageBrush ImageSource="/Icones/figurap-play-pausa.png"/>
-            </Image.OpacityMask>
-        </Image>
-        <Image x:Name="imgFundoBtnPlayPauseVideo" HorizontalAlignment="Left" Height="30" Margin="19,647,0,0" VerticalAlignment="Top" Width="30" Source="/Icones/figura-fundo-btn-play.png" Visibility="Visible">
-            <Image.OpacityMask>
-                <ImageBrush ImageSource="/Icones/figura-fundo-btn-play.png"/>
-            </Image.OpacityMask>
-        </Image>
-        <Image x:Name="imgPlayPauseVideo" HorizontalAlignment="Left" Height="30" Margin="19,647,0,0" VerticalAlignment="Top" Width="30" Source="/Icones/figurap-play-pausa.png" MouseLeftButtonDown="PressionarBtnPlayPauseVideo" Visibility="Visible">
-            <Image.OpacityMask>
-                <ImageBrush ImageSource="/Icones/figurap-play-pausa.png"/>
-            </Image.OpacityMask>
-        </Image>
+        <MediaElement x:Name="vidEvento" HorizontalAlignment="Left" Height="217" Margin="0,509,0,0" VerticalAlignment="Top" Width="298" AllowDrop="True" Source="/Evento/vidQuati.mp4" IsMuted="True" UnloadedBehavior="Stop" LoadedBehavior="Play" Visibility="Visible"/>
+        <Image x:Name="imgFundoBtnPlayPauseAudio" HorizontalAlignment="Left" Height="60" Margin="299,256,0,0" VerticalAlignment="Top" Width="60" Source="/Icones/figura-fundo-btn-play.png"/>
+
+        <Image x:Name="imgPlayPauseAudio" HorizontalAlignment="Left" Height="60" Margin="299,256,0,0" VerticalAlignment="Top" Width="60" Source="/Icones/figurap-play-pausa.png" MouseLeftButtonDown="PressionarBtnPlayPauseAudio"/>
+
+        <Image x:Name="imgFundoBtnPlayPauseVideo" HorizontalAlignment="Left" Height="30" Margin="19,647,0,0" VerticalAlignment="Top" Width="30" Source="/Icones/figura-fundo-btn-play.png" Visibility="Visible"/>
+
+        <Image x:Name="imgPlayPauseVideo" HorizontalAlignment="Left" Height="30" Margin="19,647,0,0" VerticalAlignment="Top" Width="30" Source="/Icones/figurap-play-pausa.png" MouseLeftButtonDown="PressionarBtnPlayPauseVideo" Visibility="Visible"/>
+
         <TextBlock x:Name="btnDescer" HorizontalAlignment="Center" Margin="0,716,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="66" Width="67" FontFamily="Lucida Sans" FontSize="24" FontWeight="Bold" TextAlignment="Center" Padding="0,7,300,0" MouseLeftButtonDown="PressionarBtnDescer"/>
         <MediaElement x:Name="audEvento" HorizontalAlignment="Left" Height="116" Margin="244,230,0,0" VerticalAlignment="Top" Width="172" AllowDrop="True" Source="/Resources/audQuati.wav" IsMuted="False" UnloadedBehavior="Manual"/>
     </Grid>

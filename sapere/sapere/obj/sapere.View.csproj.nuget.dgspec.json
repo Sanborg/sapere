@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere\\sapere.View.csproj": {}
+    "C:\\Users\\Usuario\\Source\\Repos\\Sanborg\\sapere\\sapere\\sapere\\sapere.View.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere.Controller\\sapere.Controller.csproj": {
+    "C:\\Users\\Usuario\\Source\\Repos\\Sanborg\\sapere\\sapere\\sapere.Controller\\sapere.Controller.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere.Controller\\sapere.Controller.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\Sanborg\\sapere\\sapere\\sapere.Controller\\sapere.Controller.csproj",
         "projectName": "sapere.Controller",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere.Controller\\sapere.Controller.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\Sanborg\\sapere\\sapere\\sapere.Controller\\sapere.Controller.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere.Controller\\obj\\",
         "projectStyle": "PackageReference",
@@ -32,8 +32,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere.Model\\sapere.Model.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere.Model\\sapere.Model.csproj"
+              "C:\\Users\\Usuario\\Source\\Repos\\Sanborg\\sapere\\sapere\\sapere.Model\\sapere.Model.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\Sanborg\\sapere\\sapere\\sapere.Model\\sapere.Model.csproj"
               }
             }
           }
@@ -70,12 +70,12 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere.Model\\sapere.Model.csproj": {
+    "C:\\Users\\Usuario\\Source\\Repos\\Sanborg\\sapere\\sapere\\sapere.Model\\sapere.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere.Model\\sapere.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\Sanborg\\sapere\\sapere\\sapere.Model\\sapere.Model.csproj",
         "projectName": "sapere.Model",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere.Model\\sapere.Model.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\Sanborg\\sapere\\sapere\\sapere.Model\\sapere.Model.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere.Model\\obj\\",
         "projectStyle": "PackageReference",
@@ -138,12 +138,12 @@
         }
       }
     },
-    "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere\\sapere.View.csproj": {
+    "C:\\Users\\Usuario\\Source\\Repos\\Sanborg\\sapere\\sapere\\sapere\\sapere.View.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere\\sapere.View.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\Sanborg\\sapere\\sapere\\sapere\\sapere.View.csproj",
         "projectName": "sapere.View",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere\\sapere.View.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\Sanborg\\sapere\\sapere\\sapere\\sapere.View.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere\\obj\\",
         "projectStyle": "PackageReference",
@@ -166,11 +166,11 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere.Controller\\sapere.Controller.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere.Controller\\sapere.Controller.csproj"
+              "C:\\Users\\Usuario\\Source\\Repos\\Sanborg\\sapere\\sapere\\sapere.Controller\\sapere.Controller.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\Sanborg\\sapere\\sapere\\sapere.Controller\\sapere.Controller.csproj"
               },
-              "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere.Model\\sapere.Model.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere.Model\\sapere.Model.csproj"
+              "C:\\Users\\Usuario\\Source\\Repos\\Sanborg\\sapere\\sapere\\sapere.Model\\sapere.Model.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\Sanborg\\sapere\\sapere\\sapere.Model\\sapere.Model.csproj"
               }
             }
           }

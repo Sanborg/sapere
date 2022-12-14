@@ -34,17 +34,13 @@ namespace sapere.View
             this.respondeuEvento = respondeuEvento;
             if (evento != null && respondeuEvento == false)
             {
-                txtNenhumEventoEncontrado.Visibility = Visibility.Hidden; 
-                txtTituloEventoNaoRespondido.Text = evento.titulo;
-                txtDescricaoEventoNaoRespondido.Text = evento.descricao;
+                txtNenhumEventoEncontrado.Visibility = Visibility.Hidden;
                 imgEventoNaoRespondido.Visibility = Visibility.Visible;
                 txtTituloEventoNaoRespondido.Visibility = Visibility.Visible;
                 txtDescricaoEventoNaoRespondido.Visibility = Visibility.Visible;
             }
             else if(evento != null && respondeuEvento == true)
             {
-                txtTituloEventoRespondido.Text = evento.titulo;
-                txtDescricaoEventoRespondido.Text = evento.descricao;
                 imgEventoRespondido.Visibility = Visibility.Visible;
                 txtTituloEventoRespondido.Visibility = Visibility.Visible;
                 txtDescricaoEventoRespondido.Visibility = Visibility.Visible;

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere.Model\\sapere.Model.csproj": {}
+    "C:\\Users\\Usuario\\Source\\Repos\\Sanborg\\sapere\\sapere\\sapere.Model\\sapere.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere.Model\\sapere.Model.csproj": {
+    "C:\\Users\\Usuario\\Source\\Repos\\Sanborg\\sapere\\sapere\\sapere.Model\\sapere.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere.Model\\sapere.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Source\\Repos\\Sanborg\\sapere\\sapere\\sapere.Model\\sapere.Model.csproj",
         "projectName": "sapere.Model",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere.Model\\sapere.Model.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Source\\Repos\\Sanborg\\sapere\\sapere\\sapere.Model\\sapere.Model.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Usuario\\source\\repos\\Sanborg\\sapere\\sapere\\sapere.Model\\obj\\",
         "projectStyle": "PackageReference",
