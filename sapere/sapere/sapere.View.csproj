@@ -1,0 +1,121 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Audios\**" />
+    <Compile Remove="Imagens\**" />
+    <EmbeddedResource Remove="Audios\**" />
+    <EmbeddedResource Remove="Imagens\**" />
+    <None Remove="Audios\**" />
+    <None Remove="Imagens\**" />
+    <Page Remove="Audios\**" />
+    <Page Remove="Imagens\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Icones\figura-animal.png" />
+    <None Remove="Icones\figura-verificado.png" />
+    <None Remove="Imagens de fundo\imgFundoMenu.png" />
+    <None Remove="Imagens de fundo\imgFundoPerfil.png" />
+    <None Remove="Resources\audQuati.mp3" />
+    <None Remove="Resources\audQuati.wav" />
+    <None Remove="Resources\imgCartaoEvento.png" />
+    <None Remove="Resources\imgCartãoNaoRespondido.png" />
+    <None Remove="Resources\imgCartãoRespondido.png" />
+    <None Remove="Resources\imgFundoAlteracaoDeSenha.png" />
+    <None Remove="Resources\imgFundoCadastroUsuarioComum.png" />
+    <None Remove="Resources\imgFundoCadastroUsuarioContribuinte.png" />
+    <None Remove="Resources\imgFundoConfiguracoes.png" />
+    <None Remove="Resources\imgFundoEsqueceuSenha.png" />
+    <None Remove="Resources\imgFundoInsercaoCodigo.png" />
+    <None Remove="Resources\imgFundoLogin.png" />
+    <None Remove="Resources\imgFundoMenu.png" />
+    <None Remove="Resources\imgFundoOpcaoDeCadastro.png" />
+    <None Remove="Resources\imgFundoPerfil.png" />
+    <None Remove="Resources\imgFundoPesquisaDeEvento.png" />
+    <None Remove="Resources\imgFundoReportagemDeEvento.png" />
+    <None Remove="Resources\imgFundoRespostaDeEvento.png" />
+    <None Remove="Resources\imgFundoVisualizacaoEventoNaoRespondido.png" />
+    <None Remove="Resources\imgFundoVisualizacaoEventoRespondido1.png" />
+    <None Remove="Resources\imgFundoVisualizacaoEventoRespondido2.png" />
+    <None Remove="Telas\Branco.png" />
+    <None Remove="Telas\imgFundoLogin.png" />
+    <None Remove="Telas\lixeira.png" />
+    <None Remove="Telas\verde.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\audQuati.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icones\figura-animal.png" />
+    <Resource Include="Evento\audQuati.mp3" />
+    <Resource Include="Resources\imgCartaoEvento.png" />
+    <Resource Include="Resources\imgCartãoRespondido.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Evento\imgFotoQuati.png" />
+    <Resource Include="Icones\figura-verificado.png" />
+    <Resource Include="Resources\imgCartãoNaoRespondido.png" />
+    <Resource Include="Resources\imgFundoInsercaoCodigo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\imgFundoConfiguracoes.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Imagens de fundo\imgFundoMenu.png" />
+    <Resource Include="Imagens de fundo\imgFundoPerfil.png" />
+    <Resource Include="Resources\imgFundoAlteracaoDeSenha.png" />
+    <Resource Include="Resources\imgFundoCadastroUsuarioComum.png" />
+    <Resource Include="Resources\imgFundoCadastroUsuarioContribuinte.png" />
+    <Resource Include="Resources\imgFundoEsqueceuSenha.png" />
+    <Resource Include="Resources\imgFundoLogin.png" />
+    <Resource Include="Resources\imgFundoMenu.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\sapere.Controller\sapere.Controller.csproj" />
+    <ProjectReference Include="..\sapere.Model\sapere.Model.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Imagens de fundo\imgFundoLogin.png" />
+    <Resource Include="Resources\imgFundoOpcaoDeCadastro.png" />
+    <Resource Include="Resources\imgFundoPerfil.png" />
+    <Resource Include="Resources\imgFundoPesquisaDeEvento.png" />
+    <Resource Include="Resources\imgFundoReportagemDeEvento.png" />
+    <Resource Include="Resources\imgFundoRespostaDeEvento.png" />
+    <Resource Include="Resources\imgFundoVisualizacaoEventoNaoRespondido.png" />
+    <Resource Include="Resources\imgFundoVisualizacaoEventoRespondido1.png" />
+    <Resource Include="Resources\imgFundoVisualizacaoEventoRespondido2.png" />
+    <Resource Include="Telas\Branco.png" />
+    <Resource Include="Telas\lixeira.png" />
+    <Resource Include="Telas\verde.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
